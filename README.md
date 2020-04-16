@@ -6,7 +6,7 @@ The cool arduino rotary encoder (coolARE) for type KY-040 with button.
 
 ### Implementation ###
 
-The implementation follows an absoulte minimal requirements.
+The implementation follows an absoulte minimum.
 
 ### Usage ###
 
@@ -24,7 +24,7 @@ ARE are( 9, 8 ); // bakes an object; CLK = PIN 9, and DS = PIN 8
 ```C++
 are.setup( ); // inits pins and member variables
 ```
-**read the steps up and down:**
+**read the steps up and down in arduino's loop method:**
 ```C++
 int steps = are.read( ); // .., -2, -1, 0, 1, 2, ..; inits with 0
 ```
@@ -35,10 +35,12 @@ bool clockwise = are.read( ); // TRUE clockwise, and FALSE counterwise ..
 ```
 **read the button:**
 ```C++
-// this method only works when the are.read( ) is called somewhere!
-bool isPressed = are.button( ); // TRUE when buton is pressed, else always false
+// this method works independently!
+bool isPressed = are.button( ); // TRUE when button is pressed, else always false
 ```
 That's all and _far_ enough.
+
+See the [coolARE.ino](https://github.com/graetz23/coolARE/blob/master/coolARE.ino) for a glued eample and try running it in [**arduino IDE**](https://www.arduino.cc/en/main/software). Press _CTRL+SHFT+m_ for the serial monitor; default are 57600 baud to choose.
 
 ### Releases
 
