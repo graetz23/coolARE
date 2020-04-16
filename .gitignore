@@ -1,3 +1,6 @@
+# arduino Makefile'S object directories ..
+build-*
+
 # Prerequisites
 *.d
 
