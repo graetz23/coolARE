@@ -60,7 +60,7 @@ have fun :-)
 
 ## Change Log
 
-**20140216**
+**20200416**
   - release of [version 1](https://github.com/graetz23/coolARE/releases),
   - debugged, working well,
   - set up of classes,
