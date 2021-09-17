@@ -2,7 +2,7 @@
 
 ### Introduction ###
 
-The cool arduino rotary encoder (coolARE) library is implemented for otary encoders of type KY-040 including a switch button.
+The cool arduino rotary encoder (coolARE) library is implemented for rotary encoders of type KY-040 including a switch button.
 
 ### Implementation ###
 
