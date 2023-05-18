@@ -60,6 +60,9 @@ have fun :-)
 
 ## Change Log
 
+**20230518**
+  - updating copyright by year ..
+
 **20200416**
   - release of [version 1](https://github.com/graetz23/coolARE/releases),
   - debugged, working well,
